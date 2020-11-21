@@ -37,6 +37,8 @@
   }
 }
 
+/**/
+
 .FarFromTopBox1{
   margin-top: 35vh;
 }
@@ -52,6 +54,20 @@
   font-weight: bold;
   color: grey;
 } 
+
+.ScrollBox{
+  margin-top: 15vh;
+}
+
+.ScrollSize{
+  width: 10%;
+}
+
+.Description{
+  padding-top: 20vh;
+}
+
+
 
 .page1{
   height: 100vh;
@@ -76,7 +92,57 @@
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) iPad vertical */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .page1{
+    background-image: url("./Components/Pics/wii4xmd.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50% ;
+  }
+
+  .FarFromTopBox1{
+    margin-top: 5vh;
+  }
+
+  .WiiTitle{
+    font-size: 10rem;
+    font-weight: bold;
+    color: grey;
+  } 
+
+  .ScrollBox{
+    margin-top: 60vh;
+  }
+
+  .ScrollSize{
+    width: 40%;
+  }
+
+  .Description{
+    padding-top: 10vh;
+  }
+  
+  .HeadTitle{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .step{
+    padding-top: 3vh;
+  }
+
+  .pics{
+    width: 100%;
+  }
+
+  .picsEx1{
+    width: 50%;
+  }
+
+  .picsEx2{
+    width: 90%;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) iPad Horizon */
 @media only screen and (min-width: 992px) {}
@@ -91,5 +157,48 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 40% ;
+  }
+
+  .FarFromTopBox1{
+    margin-top: 25vh;
+  }
+
+  .WiiTitle{
+    font-size: 15rem;
+    font-weight: bold;
+    color: grey;
+  } 
+
+  .ScrollSize{
+    width: 15%;
+  }
+
+  .ScrollBox{
+    margin-top: 15vh;
+  }
+
+  .Description{
+    padding-top: 20vh;
+  }
+
+  .HeadTitle{
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  .step{
+    padding-top: 25vh;
+  }
+
+  .pics{
+    width: 70%;
+  }
+
+  .picsEx1{
+    width: 25%;
+  }
+
+  .picsEx2{
+    width: 70%;
   }
 }

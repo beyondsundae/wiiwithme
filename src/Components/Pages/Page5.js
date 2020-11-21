@@ -12,7 +12,7 @@ function Page5() {
 
     return (
         <div className="page5" >
-            <div className="text-right mr-5">
+            <div className="text-right mt-5 mb-5 mr-5">
                 <FooterText>
                     By beyondsundae
                 </FooterText>
