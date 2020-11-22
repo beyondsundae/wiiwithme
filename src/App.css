@@ -105,13 +105,13 @@
   }
 
   .WiiTitle{
-    font-size: 10rem;
+    font-size: 9rem;
     font-weight: bold;
     color: grey;
   } 
 
   .ScrollBox{
-    margin-top: 60vh;
+    margin-top: 55vh;
   }
 
   .ScrollSize{

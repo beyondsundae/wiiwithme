@@ -26,8 +26,8 @@ function Page1() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox1" > 
                     <div className="col-7 col-md-7 col-lg-5 col-xl-7">
-                       <div className="WiiTitle animate__animated animate__fadeIn">
-                            WiiBoi
+                       <div className="WiiTitle animate__animated animate__bounce animate__repeat-3">
+                            WiiwithMe
                         </div> 
                     </div>
 

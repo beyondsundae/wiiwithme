@@ -1,8 +1,15 @@
 import React from 'react'
 
+import { useInView } from "react-intersection-observer";
 import styled from 'styled-components'
 
 function Page4() {
+
+    const [ref, inView] = useInView({ threshold: 1, triggerOnce: true });
+    const [ref2, inView2] = useInView({ threshold: 0.7, triggerOnce: true });
+    const [ref3, inView3] = useInView({ threshold: 0.7, triggerOnce: true });
+    const [ref4, inView4] = useInView({ threshold: 0.7, triggerOnce: true });     
+    const [ref5, inView5] = useInView({ threshold: 0.7, triggerOnce: true }); 
 
     const Style = {
         TopBox:{
@@ -38,8 +45,8 @@ function Page4() {
                         </ContentText> 
                     </div>
                     <div className="col-12 col-md-12 col-lg-7 col-xl-7 ">
-                       <div >
-                            <img className="pics" src="https://user-images.githubusercontent.com/59742129/99807809-9621dd80-2b72-11eb-975b-0b307edb405e.png" />
+                       <div ref={ref}>
+                            <img className={inView ? "pics animate__animated animate__fadeInLeft" : "d-none"} src="https://user-images.githubusercontent.com/59742129/99807809-9621dd80-2b72-11eb-975b-0b307edb405e.png" />
                         </div> 
                     </div>
                 </div>
@@ -53,8 +60,8 @@ function Page4() {
                         </ContentText> 
                     </div>
                     <div className="col-12 col-md-12 col-lg-7 col-xl-7 ">
-                       <div >
-                            <img className="pics" src="https://user-images.githubusercontent.com/59742129/99808090-f284fd00-2b72-11eb-8161-f8bbea98689e.png" />
+                       <div ref={ref2}>
+                            <img className={inView2 ? "pics animate__animated animate__fadeInLeft" : "d-none"} src="https://user-images.githubusercontent.com/59742129/99808090-f284fd00-2b72-11eb-8161-f8bbea98689e.png" />
                         </div> 
                     </div>
                 </div>
@@ -68,8 +75,8 @@ function Page4() {
                         </ContentText> 
                     </div>
                     <div className="col-12 col-md-12 col-lg-7 col-xl-7 ">
-                       <div >
-                            <img className="pics" src="https://user-images.githubusercontent.com/59742129/99808100-f4e75700-2b72-11eb-9ddc-b7de245a80d2.png" />
+                       <div ref={ref3}>
+                            <img className={inView3 ? "pics animate__animated animate__fadeInLeft" : "d-none"} src="https://user-images.githubusercontent.com/59742129/99808100-f4e75700-2b72-11eb-9ddc-b7de245a80d2.png" />
                         </div> 
                     </div>
                 </div>
@@ -83,8 +90,8 @@ function Page4() {
                         </ContentText> 
                     </div>
                     <div className="col-12 col-md-12 col-lg-7 col-xl-7 ">
-                       <div >
-                            <img className="pics" src="https://user-images.githubusercontent.com/59742129/99808104-f57fed80-2b72-11eb-8e12-abe952b4c493.png" />
+                       <div ref={ref4}>
+                            <img className={inView4 ? "pics animate__animated animate__fadeInLeft" : "d-none"} src="https://user-images.githubusercontent.com/59742129/99808104-f57fed80-2b72-11eb-8e12-abe952b4c493.png" />
                         </div> 
                     </div>
                 </div>
@@ -98,8 +105,8 @@ function Page4() {
                         </ContentText> 
                     </div>
                     <div className="col-12 col-md-12 col-lg-7 col-xl-7 ">
-                       <div >
-                            <img className="pics" src="https://user-images.githubusercontent.com/59742129/99808111-f6b11a80-2b72-11eb-945b-27c70a447eb8.png" />
+                       <div ref={ref5}>
+                            <img className={inView5 ? "pics animate__animated animate__fadeInLeft" : "d-none"} src="https://user-images.githubusercontent.com/59742129/99808111-f6b11a80-2b72-11eb-945b-27c70a447eb8.png" />
                         </div> 
                     </div>
                 </div>

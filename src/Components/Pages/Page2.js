@@ -1,6 +1,6 @@
 import React from 'react'
-import { useInView } from "react-intersection-observer";
 
+import { useInView } from "react-intersection-observer";
 import styled from 'styled-components'
 
 import lorem from '../Pics/lorem.png'
@@ -22,8 +22,6 @@ function Page2() {
             height: "95vh"
         },
     }
-
-    
 
     const ContentText = styled.div`
         font-size: 2rem;
