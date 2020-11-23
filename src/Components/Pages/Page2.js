@@ -44,7 +44,7 @@ function Page2() {
                         </div> 
                     </div>
                     <div className="Description col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText >
+                       <ContentText className="Description2">
                             THIS PAGE CREATED FOR TEACHING HOW TO INSTALL Wii HOMEBREW TO PLAY GAMES FROM USB STEP BY STEP 
                         </ContentText> 
                     </div>

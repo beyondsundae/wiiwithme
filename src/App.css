@@ -85,11 +85,81 @@
   height: auto;
 }
 
-/* Extra small devices (phones, 600px and down) Mobile  */
-@media only screen and (max-width: 600px) {}
+/* Extra small devices (phones, 600px and down) iPhone 6 7 8 Plus */
+@media only screen and (max-width: 600px) {
+  .page1{
+    background-image: url("./Components/Pics/wii4xmd.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 75% ;
+  }
 
-/* Small devices (portrait tablets and large phones, 600px and up) iPhone */
-@media only screen and (min-width: 600px) {}
+  .FarFromTopBox1{
+    margin-top: -3vh;
+  }
+
+  .WiiTitle{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: grey;
+  } 
+
+  .ScrollBox{
+    margin-top: 70vh;
+  }
+
+  .ScrollSize{
+    width: 40%;
+  }
+
+  .Description2{
+    padding-top: 0vh;
+    font-size: 1.5rem !important;
+  }
+
+  .HeadTitle{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .step{
+    padding-top: 3vh;
+    font-size: 1rem;
+    font-weight: bold;
+    color: grey;
+  }
+
+  .stepText{
+    font-size: 1rem !important;
+    font-weight: bold;
+    color: grey;
+  }
+
+  .pics{
+    width: 100%;
+  }
+
+  .picsEx1{
+    width: 50%;
+  }
+
+  .picsEx2{
+    width: 90%;
+  }
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) iPhone Horizon */
+@media only screen and (min-width: 600px) {
+  .page1{
+    background-image: url("./Components/Pics/wii4xmd.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 40% ;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) iPad vertical */
 @media only screen and (min-width: 768px) {

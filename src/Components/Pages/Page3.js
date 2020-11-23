@@ -47,7 +47,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5 ">
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 1 : PREPARE YOUR SD CARD, USB FLASH DRIVE AND Wii REMOTE.
                         </ContentText> 
                     </div>
@@ -62,7 +62,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5  " >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 2 : FORMAT TO FAT32
                         </ContentText> 
                     </div>
@@ -77,7 +77,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5  ">
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 3 : GO TO SETTINGS, REMEMBER YOUR VERSION, REGION AND Wi-Fi MAC ADDRESS
                         </ContentText> 
                     </div>
@@ -92,7 +92,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 4 : GO TO <a href="https://please.hackmii.com/">LetterBomb</a> AND FILL WHAT YOU REMEMBER FROM PREV STEP THEN CUT RED WIRE (IF YOU ARE NOT IN 4.3, PLEASE UPDATE)
                         </ContentText> 
                     </div>
@@ -107,7 +107,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 4.1 : GO TO <a href="https://www.mediafire.com/file/4ly75zh2q20ou8b/Original_softmod.zip/file">SOFTMOD</a> AND DOWNLOAD.
                         </ContentText> 
                     </div>
@@ -122,7 +122,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 5 : COPY EVERYTHING IN LetterBomb AND  SoftMod FOLDER TO SD CARD
                         </ContentText> 
                     </div>
@@ -137,7 +137,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 6 : INSERT SD CARD TO Wii AND TURN ON
                         </ContentText> 
                     </div>
@@ -152,7 +152,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 7 : GO TO CALENDAR AND GO PREV DAY YOU GONNA SEE LetterBomb THEN CLICK IT
                         </ContentText> 
                     </div>
@@ -167,7 +167,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 8 : INSTALL HOMEBREW AND BootMii AND THEN EXIT
                         </ContentText> 
                     </div>
@@ -183,7 +183,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 9 : NOW HOMEBREW CHANNEL APPEAR THEN RUN IT
                         </ContentText> 
                     </div>
@@ -198,7 +198,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 10 : THEN LOAD MULTI-MOD MANAGER 
                         </ContentText> 
                     </div>
@@ -213,7 +213,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 11 : PRESS D-DOWN, SELECT WAD MANAGER AND HOLD + BUTTON TO SELECT ALL THEN PRESS A TO INSTALL
                         </ContentText> 
                     </div>
@@ -228,7 +228,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 12 : NOW USB GX LOADER ON YOUR HOME CHANNEL THEN RUN IT
                         </ContentText> 
                     </div>
@@ -243,7 +243,7 @@ function Page3() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5" >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 13 : LET'S FUN
                         </ContentText> 
                     </div>

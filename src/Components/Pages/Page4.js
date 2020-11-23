@@ -40,7 +40,7 @@ function Page4() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5 " >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 1 : DOWNLOAD <a href="http://www.wiibackupmanager.co.uk/WiiBackupManager_Build78.html"> Wii Backup Manager </a> 
                         </ContentText> 
                     </div>
@@ -55,7 +55,7 @@ function Page4() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5 " >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 2 : BROWSE USB FLASH DRIVE
                         </ContentText> 
                     </div>
@@ -70,7 +70,7 @@ function Page4() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5 " >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 3 : BROWSE GAME FOLDER
                         </ContentText> 
                     </div>
@@ -85,7 +85,7 @@ function Page4() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5 " >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 4 : SELECT GAME
                         </ContentText> 
                     </div>
@@ -100,7 +100,7 @@ function Page4() {
             <div className="container-fluid" style={Style.Content}>
                 <div className="row FarFromTopBox3" > 
                     <div className="step col-12 col-md-12 col-lg-5 col-xl-5 " >
-                       <ContentText>
+                       <ContentText className="stepText">
                             STEP 5 : TRANSFER TO USB DRIVE, DONE !
                         </ContentText> 
                     </div>
