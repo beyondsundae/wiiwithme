@@ -39,9 +39,9 @@ function Page3() {
         `
 
     return (
-        <div className="page3">
+        <div className="page3" id="section1">
             <div className="container-fluid HeadTitle" style={Style.TopBox}>
-                INSTALL HOMEBREW CHANNEL
+                    INSTALL HOMEBREW CHANNEL
             </div>
 
             <div className="container-fluid" style={Style.Content}>

@@ -1,70 +1,60 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
+# Introduction
+ **WiiwithMe.** Started from I decided to buy a Nintendo Wii and I have studied a lot of information about
+ 
+ - **How to install Homebrew Channel.**
+ - **How to play Wii games from USB.**
+ - **How to put games on USB.**
+ - ~~How to play  emulator game such as GameCube, Nintendo 64, PSX etc.~~  ( not available right now )
+ 
+so, it gave me the idea want to share these all experience and knowledge on a webpage.
 
-## Available Scripts
+**WiiwithMe** เกิดจากการที่ผมตัดสินใจซื้อเครื่องเกม Nintendo Wii มา ผมได้ศึกษาข้อมูลมากมายในหลายๆเรื่องจากหลายๆแห่ง เช่น 
 
-In the project directory, you can run:
+ - **การแปลงเครื่อง** 
+ - **การทำให้เครื่องเล่นเกมจาก USB ได้** 
+ -  **การติดตั้ง Emulator ของเครื่องอื่นๆ**
+ -  ~~การเล่นเกมจาก Emulator เช่น GameCube, Nintendo 64, PSX  หรืออื่นๆ~~ ( ยังไม่ได้เพิ่ม )
+ 
 
-### `npm start`
+ เป็นต้น ทำให้ผมมีความคิดที่อยากจะนำประสบการณ์ความรู้ที่ผมได้รวบรวมมา มาแบ่งปันในรูปแบบของเว็บให้ความรู้เกี่ยวกับเครื่อง Wii
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Technology
 
-### `npm test`
+โปรเจคนี้เป็นการศึกษาเทคโนโลยีที่สนใจ ได้แก่
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - **React Hook**
+ - **Github Pages**
+ ___
+-  **Intersection Observer**
+ - **smooth-scrollbar-react**
+ - **Animate.css**
+ - **Responsive with window.innerWidth**
+ - **react-scroll**
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Overview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![enter image description here](https://user-images.githubusercontent.com/59742129/99974595-c0260a80-2dd3-11eb-97dd-ecb14d76681a.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Figure 1.1** Desktop page
 
-### `npm run eject`
+![enter image description here](https://user-images.githubusercontent.com/59742129/99974624-c87e4580-2dd3-11eb-9461-2589eccb3777.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Figure 1.2** Responsive for iPhone and iPad 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![enter image description here](https://user-images.githubusercontent.com/59742129/99974643-cf0cbd00-2dd3-11eb-9d4b-bd0a4dbccc53.gif)
+![enter image description here](https://user-images.githubusercontent.com/59742129/99974641-ce742680-2dd3-11eb-80a7-294d29732cfc.gif)
+**Figure 1.3** Nav working if without smooth-scrollbar-react
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# How to use
 
-## Learn More
+**Terminal**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# About
+Made with ❤️ by me and thanks for pics, 

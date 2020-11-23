@@ -9,7 +9,7 @@ import Page4 from "./Page4"
 import Page5 from "./Page5"
 function Home() {
     const {width} = useWidth()
-    const breakPoint = 500
+    const breakPoint = 800
   
     return (
       <div className="App">

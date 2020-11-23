@@ -32,9 +32,11 @@ function Page4() {
         `
 
     return (
-        <div className = "page4">
+        <div className = "page4" id="section2">
             <div className="container-fluid HeadTitle" style={Style.TopBox}>
-                HOW TO TRANSFER GAME TO USB
+                <div class="Head2">
+                    HOW TO TRANSFER GAME TO USB
+                </div>
             </div>
 
             <div className="container-fluid" style={Style.Content}>

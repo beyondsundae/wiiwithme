@@ -55,6 +55,12 @@
   color: grey;
 } 
 
+.textNav{
+  text-align: left;
+  font-size: 2vh;
+  width: 120%;
+}
+
 .ScrollBox{
   margin-top: 15vh;
 }
@@ -81,9 +87,7 @@
 .page4{
   height: auto;
 }
-.page5{
-  height: auto;
-}
+
 
 /* Extra small devices (phones, 600px and down) iPhone 6 7 8 Plus */
 @media only screen and (max-width: 600px) {
@@ -91,7 +95,7 @@
     background-image: url("./Components/Pics/wii4xmd.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 75% ;
+    background-size: 60% ;
   }
 
   .FarFromTopBox1{
@@ -105,7 +109,7 @@
   } 
 
   .ScrollBox{
-    margin-top: 70vh;
+    margin-top: 60vh;
   }
 
   .ScrollSize{
@@ -146,9 +150,18 @@
   .picsEx2{
     width: 90%;
   }
+
+  .page5{
+    height: 15vh;
+  }
+
+  .page5{
+    background-image: url("./Components/Pics/wave (4).svg");
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: 100% ;
+  }
 }
-
-
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) iPhone Horizon */
@@ -212,6 +225,17 @@
   .picsEx2{
     width: 90%;
   }
+
+  .page5{
+    height: 15vh;
+  }
+
+  .page5{
+    background-image: url("./Components/Pics/wave (4).svg");
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: 100% ;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) iPad Horizon */
@@ -270,5 +294,16 @@
 
   .picsEx2{
     width: 70%;
+  }
+
+  .page5{
+    height: 35vh;
+  }
+
+  .page5{
+    background-image: url("./Components/Pics/wave (4).svg");
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: 100% ;
   }
 }
